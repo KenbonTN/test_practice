@@ -16,6 +16,8 @@ class Product:
         self.price = price
         self.quantity = quantity
     
+
+    
     def calculateTotal(self):
         return self.price * self.quantity
 
